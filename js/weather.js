@@ -20,4 +20,4 @@ function fail(loc){
     alert("NOP");
 }
 
-navigator.geolocation.getCurrentPosition(success, fail);
+//navigator.geolocation.getCurrentPosition(success, fail);
