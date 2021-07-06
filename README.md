@@ -217,3 +217,18 @@ navigator.geolocation.getCurrentPosition(success, fail);
 ```
 openweathermap 에서 api를 json으로 받아 안의 데이터에서 날씨와 위치 정보를 추출하였다.
 ```
+
+
+<br/><br/><br/><br/>
+- __실행결과__
+
+![main](https://user-images.githubusercontent.com/74194550/124633870-afd52280-dec0-11eb-8f5b-c71c65ee33d0.png)
+
+![main-login](https://user-images.githubusercontent.com/74194550/124633873-b19ee600-dec0-11eb-996d-bdf67c838aec.png)
+
+<br/><br/><br/><br/>
+
+#### 추가로 업데이트 해볼 것
+1. 할 일 추가와 상관없이 위치/날씨 고정
+2. 로그인하지않았다면 위치, 지역 표시 X
+3. 할 일 클릭 시 할일을 했다는 체크 (박스 또는 라인)
