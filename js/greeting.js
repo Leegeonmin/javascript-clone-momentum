@@ -90,7 +90,7 @@ function submit(event){
 
 function greet(name){
     greeting.classList.remove(HIDDEN_CLASSNAME);
-    greeting.innerText = `hello ${name}`;
+    greeting.innerText = `안녕하세요 ${name}님`;
 }
 
 if(localStorage.getItem(NAME) === null){

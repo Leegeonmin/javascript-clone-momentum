@@ -13,7 +13,8 @@ function painttodo(value){
     li.appendChild(button);
     button.innerText = "X";
     todoList.appendChild(li);
-
+    li.classList.add("list-list");
+    span.classList.add("list-span");
     button.addEventListener("click", deletetodo); // X눌렀을 시 event handle
 
 }

@@ -18,4 +18,4 @@ const author = document.querySelector("#quotes-author")
 
 
 quote.innerText = quotes[num].quotes;
-author.innerText = quotes[num].author;
+author.innerText = `- ${quotes[num].author}`;
